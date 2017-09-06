@@ -6,7 +6,7 @@
 
   margin-bottom: 0px;
   width: 100%;
-  padding: 1%;
+  /* padding: 1%; */
   text-align: center;
   
 }
@@ -19,8 +19,12 @@
 
 .footer .developedBy{  
   display: inline;
-  
+  color: #ecf0f1;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+  
+
 
 .footer .list .item{
   display: inline;

@@ -17,6 +17,10 @@ import { ic_cake } from 'react-icons-kit/md/ic_cake'
 import { bathtub } from 'react-icons-kit/fa/bathtub'
 import { water } from 'react-icons-kit/entypo/water'
 
+
+
+import { ic_local_grocery_store } from 'react-icons-kit/md/ic_local_grocery_store';  
+
 export default class Home extends Component {
 
     render() {
@@ -37,12 +41,19 @@ export default class Home extends Component {
                  
                     </div>
                     
-                    <div className ="col-md-8 col-md-offset-2">
-                        <ul>
-                            <li><a href="#">Finalizar compras</a></li>
-                            <li><a href="#">Minha lista de compras</a></li>
-                            <li><a href="#">Compras anteriores</a></li>
-                        </ul>
+                    <div className="menu">
+                    
+                            <ul className="list">
+                                <li className="item-1"><a className="link" href="#">Finalizar compras</a></li>
+                                <li className="item"><a className="link" href="#">Minha lista de compras</a></li>
+                                <li className="item"><a className="link" href="#">Compras anteriores</a></li>
+                                <li className="carrinho">
+                                    <a className="link" href="#">
+                                        <span className="preco">R$ 0,00</span>
+                                        <Icon icon={ ic_local_grocery_store } size={64}/></a>
+                                </li>
+                            </ul>
+                        
                     </div>
                 </div>
 
@@ -67,7 +78,8 @@ export default class Home extends Component {
                     <Card name="Matinais" className="category item-6"/>
                     <Card name="Utilidades" icon={ hammer } className="category item-7"/>
                 </div>
-
+                
+                <hr />
                 <Destaques />   
             </div>
 

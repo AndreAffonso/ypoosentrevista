@@ -15,7 +15,7 @@ class Destaques extends Component {
     
     return (
       <div className="Destaques">
-        <h1 className="text-center">Destaques</h1>
+        <h1 className="text-center">{'Promoções'}</h1>
         
         <div className="Box">
             <Product 
@@ -98,7 +98,7 @@ class Destaques extends Component {
             />
         </div>
         
-        <br/><br/><br/><br/>
+        <br/><br/><br/>
       </div>
     )
   }

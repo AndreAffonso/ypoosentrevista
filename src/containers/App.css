@@ -1,5 +1,7 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Chewy|Roboto');
 
+.App {
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -9,6 +11,10 @@ font escura: default
 azul primario: #34495e
 azul secondario: #3498db
 azul terciario:
+
+
+font-family: 'Chewy', cursive;
+font-family: 'Roboto', sans-serif;
  */
 
 
