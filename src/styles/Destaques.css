@@ -1,0 +1,10 @@
+.Destaques {
+    /* background: #ddd; */
+    margin-bottom: 10px;
+}
+
+.Destaques .Box{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}

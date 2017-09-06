@@ -1,0 +1,54 @@
+.Product {
+    flex-basis: 24%;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3%;
+    align-items: center;
+    background: rgba(0,0,0,.01);
+}
+
+.Product:hover {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5);
+    
+}
+
+.Product .name {
+    /* padding: 2px; */
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.Product .price {
+    padding: 2px;
+    margin-right: 5px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.Product .quantity {
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2rem;
+}
+
+.Product .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 60%;
+}
+
+.Product .adicionar {
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.Product .adicionar:hover {
+    opacity: 1;
+    
+}

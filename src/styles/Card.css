@@ -1,0 +1,27 @@
+.card {
+	padding: 20px;
+	/* margin-bottom: 10; */
+	text-align: center;
+	color: white;
+	background: #3498db;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 3%;
+	flex-basis: 14%;
+	transition: transform 1s;
+}
+
+
+.card .title { 
+	font-size: 22px;
+	line-height: 4px;
+	
+}
+
+.card:hover {
+	background: #2980b9;
+	transform: rotateZ(4deg);
+}
+
+.card:hover .title {
+	/* font-size: 24px; */
+}

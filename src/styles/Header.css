@@ -1,0 +1,42 @@
+.header{
+    top:0 ;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background:#34495e;
+    
+}
+
+.header .nav{
+        
+}
+
+.header .nav .list{
+    font-weight: bold;
+    padding: 3px;
+    list-style: none;
+    
+}
+
+.header .nav .list .item{
+    display: inline;
+    margin-right: 1%;
+    /* border-bottom: 1px solid white; */
+}
+
+.header .nav .list .link{
+    color: #ecf0f1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.header .nab .list .active{
+    color: red;
+    background: black;
+}
+
+.header .nav .list .link:hover{
+    color: rgba(255,255,255,.3);
+    border-top: 2px solid rgba(255,255,255,.3);
+}

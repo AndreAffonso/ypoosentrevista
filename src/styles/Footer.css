@@ -1,0 +1,33 @@
+.footer{
+  display: block;
+  background: #34495e;
+  position: fixed;
+  bottom: 0;
+
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  
+}
+
+.footer .list{  
+  display: inline;
+  list-style: none;
+  
+}
+
+.footer .developedBy{  
+  display: inline;
+  
+}
+
+.footer .list .item{
+  display: inline;
+  margin-right: 1%;
+  color: #ecf0f1;
+}
+
+.footer .list .item:hover{
+  color: rgba(255,255,255,.3);
+}
